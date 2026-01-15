@@ -35,6 +35,7 @@
     border: none;
     border-radius: 41px;
     color: var(--button-font-color);
+    cursor: pointer;
     font-size: 1rem;
     font-weight: bold;
     gap: 8px;
@@ -71,7 +72,7 @@
 #navigation_bar ul li{
     list-style: none;
 }
-#navigation_bar ul a{
+#navigation_bar ul a ,#navigation_bar ul a i{
     text-decoration: none;
     color: var(--primary-font-color);
     font-size: 1rem;
