@@ -14,6 +14,7 @@
     --button-backgroun-color: #E02C6D;
     --footer-background-color: #0A0826;
     --button-font-color: #ffffff;
+    --social-icon-color: #ffffff;
 }
 
 /* seard style */
@@ -150,13 +151,13 @@
     line-height: 40px;
     color: var(--secondary-font-color);
 }
-.card h3{
+.card_p{
     font-size: 1.5rem;
     line-height: 150%;
     color: #000000;
     font-family: "Inter", sans-serif;
 }
-.card p{
+.card :last-child{
     font-size: 0.875rem;
     font-weight: bold;
     line-height: 143%;
@@ -216,8 +217,9 @@
     justify-content: center;
     gap: 30px;
 }
-.social_icons i{
+.social_icons a i{
     width: 2rem;
     height: 2rem;
     font-size: 1.75rem;
+    color: var(--social-icon-color);
 }
