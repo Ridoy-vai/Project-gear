@@ -1,0 +1,122 @@
+@media screen and (max-width: 575.99px) {
+    .flix_display{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    #navigation_bar{
+        justify-content: center;
+    }
+    #navigation_bar ul li a i{
+        display: none;
+    }
+    #header_box{
+        justify-content: center;
+        margin-top: 50px;
+        gap: 20px;
+    }
+    .header_contant .button_header{
+        justify-content: center;
+    }
+    .colection_box{
+        grid-template-columns: repeat(1, auto);
+        width: auto;
+        gap: 20;
+    }
+    .featured_products_box{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media (min-width: 576px) and (max-width: 767.99px) { 
+
+    .flix_display{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    #navigation_bar{
+        justify-content: space-evenly;
+    }
+
+    #header_box{
+        justify-content: center;
+        margin-top: 50px;
+        gap: 20px;
+    }
+    .header_contant .button_header{
+        justify-content: center;
+    }
+    .colection_box{
+        grid-template-columns: repeat(2, auto);
+        width: auto;
+        gap: 20;
+    }
+    
+    .featured_products_box{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+ }
+
+ @media (min-width: 768px) and (max-width: 991.99px) { 
+    .flix_display{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    #navigation_bar{
+        justify-content: space-evenly;
+    }
+ 
+    #header_box{
+        justify-content: center;
+        margin-top: 50px;
+        gap: 20px;
+    }
+    .header_contant .button_header{
+        justify-content: center;
+    }
+    .colection_box{
+        grid-template-columns: repeat(2, auto);
+        width: auto;
+        gap: 20;
+    }
+    
+    .featured_products_box{
+        justify-content: center;
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+ }
+
+
+ @media (min-width: 992px) and (max-width: 1024px) { 
+    
+    .flix_display{
+        text-align: center;
+    }
+    #navigation_bar{
+        justify-content: space-around;
+    }
+    
+    #header_box{
+        justify-content: center;
+        margin-top: 50px;
+        gap: 20px;
+    }
+    .header_contant .button_header{
+        justify-content: center;
+    }
+    .colection_box{
+        grid-template-columns: repeat(3, auto);
+        width: auto;
+        gap: 20;
+    }
+    
+    .featured_products_box{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: left;
+    }
+ }
+
