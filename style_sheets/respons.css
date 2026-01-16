@@ -13,6 +13,7 @@
         justify-content: center;
         margin-top: 50px;
         gap: 20px;
+        flex-direction: column-reverse;
     }
     .header_contant .button_header{
         justify-content: center;
@@ -25,6 +26,8 @@
     .featured_products_box{
         justify-content: center;
         flex-wrap: wrap;
+        gap: 20px;
+        flex-direction: column-reverse;
     }
     
 }
@@ -42,6 +45,7 @@
     #header_box{
         justify-content: center;
         margin-top: 50px;
+        flex-direction: column-reverse;
         gap: 20px;
     }
     .header_contant .button_header{
@@ -56,6 +60,8 @@
     .featured_products_box{
         justify-content: center;
         flex-wrap: wrap;
+        gap: 20px;
+        flex-direction: column-reverse;
     }
  }
 
@@ -72,6 +78,7 @@
         justify-content: center;
         margin-top: 50px;
         gap: 20px;
+        flex-direction: column-reverse;
     }
     .header_contant .button_header{
         justify-content: center;
@@ -84,7 +91,8 @@
     
     .featured_products_box{
         justify-content: center;
-        max-width: 100%;
+        gap: 20px;
+        flex-direction: column-reverse;
         flex-wrap: wrap;
     }
  }
@@ -102,6 +110,7 @@
     #header_box{
         justify-content: center;
         margin-top: 50px;
+        flex-direction: column-reverse;
         gap: 20px;
     }
     .header_contant .button_header{
@@ -115,7 +124,9 @@
     
     .featured_products_box{
         flex-wrap: wrap;
+        gap: 20px;
         justify-content: center;
+        flex-direction: column-reverse;
         text-align: left;
     }
  }

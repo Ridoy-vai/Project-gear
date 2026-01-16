@@ -40,11 +40,19 @@
     font-weight: bold;
     gap: 8px;
 }
+.button_header{
+    transition: transform 2s;
+}
+.button_header:hover{
+    transform: scaleX(1.2);
+    background-color: chocolate;
+}
 
 .more_button_box{
     width: 100%;
     justify-content: right;
 }
+
 
 .button_more_product{
     color: var(--six-font-color);
@@ -54,6 +62,11 @@
 
 .button_featured{
     border-radius: 0px;
+    transition: transform 3s ;
+}
+.button_featured:hover{
+    border-radius: 10PX;
+    transform: rotate(360deg);
 }
 
 /* normal style code */
